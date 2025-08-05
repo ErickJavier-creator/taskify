@@ -7,7 +7,7 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative py-20 md:py-32 lg:py-10">
+    <section className="relative py-10 md:py-32 lg:py-10">
       <div className="container px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-8">
