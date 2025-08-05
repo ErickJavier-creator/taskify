@@ -1,4 +1,5 @@
 import Benefits from "@/components/layout/benefits";
+import Cta from "@/components/layout/cta";
 import Features from "@/components/layout/features";
 import Header from "@/components/layout/header";
 import Hero from "@/components/layout/hero"
@@ -15,6 +16,7 @@ export default function Home() {
       <Features />
       <Benefits />
       <Testimonials />
+      <Cta />
     </main>
   </div>;
 }
