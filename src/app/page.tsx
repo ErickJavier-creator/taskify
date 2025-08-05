@@ -1,6 +1,7 @@
 import Benefits from "@/components/layout/benefits";
 import Cta from "@/components/layout/cta";
 import Features from "@/components/layout/features";
+import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
 import Hero from "@/components/layout/hero"
 import SocialProof from "@/components/layout/social-proof";
@@ -18,5 +19,6 @@ export default function Home() {
       <Testimonials />
       <Cta />
     </main>
+    <Footer />
   </div>;
 }
