@@ -3,6 +3,7 @@ import Features from "@/components/layout/features";
 import Header from "@/components/layout/header";
 import Hero from "@/components/layout/hero"
 import SocialProof from "@/components/layout/social-proof";
+import Testimonials from "@/components/layout/testimonials";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <SocialProof />
       <Features />
       <Benefits />
+      <Testimonials />
     </main>
   </div>;
 }
