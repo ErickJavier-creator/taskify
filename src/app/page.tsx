@@ -1,3 +1,4 @@
+import Benefits from "@/components/layout/benefits";
 import Features from "@/components/layout/features";
 import Header from "@/components/layout/header";
 import Hero from "@/components/layout/hero"
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <SocialProof />
       <Features />
+      <Benefits />
     </main>
   </div>;
 }
