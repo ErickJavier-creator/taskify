@@ -20,7 +20,7 @@ Taskify Pro is a modern and minimalistic task management app inspired by tools l
 - **State Management:** Zustand 
 - **Drag & Drop:** DnD Kit 
 - **Authentication:** NextAuth.js 
-- **Database:** PostgreSQL
+- **Database:** SupaBase
 - **ORM:** Prisma 
 - **Deployment:** Vercel
 
