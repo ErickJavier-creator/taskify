@@ -1,5 +1,5 @@
 'use client';
-
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import {
@@ -16,6 +16,8 @@ import {
 import Navbar from './navbar';
 
 const Header = () => {
+  const router = useRouter();
+  const handleNavigation = () => router.push('/login')
   return (
     //   {/* Header */}
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
@@ -29,7 +31,7 @@ const Header = () => {
         <Navbar />
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="sm" className="hidden md:inline-flex">
+          <Button onClick={handleNavigation} variant="ghost" size="sm" className="hidden md:inline-flex cursor-pointer">
             Sign In
           </Button>
           <Button size="sm" className="bg-emerald-600 hover:bg-emerald-700">
